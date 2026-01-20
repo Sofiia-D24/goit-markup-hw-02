@@ -39,10 +39,17 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.contacts-link {
+  color: #434455;
+}
 .nav-link:hover,
-.nav-link:focus,
+.nav-link:focus {
+  color: #404bbf;
+}
 .contacts-link:hover,
-.contacts-link:focus,
+.contacts-link:focus {
+  color: #404bbf;
+}
 .hero-button:hover,
 .hero-button:focus {
   color: #404bbf;
@@ -65,9 +72,10 @@ a {
 }
 .section-subtitle {
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  font-weight: 500;
 }
 .section-desc {
   font-size: 16px;
@@ -96,6 +104,12 @@ a {
 }
 
 .logo-decs {
-  letter-spacing: 0.02em;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-three {
+  background-color: #f4f4fd;
+}
+.section-list {
+  background-color: #fff;
 }
