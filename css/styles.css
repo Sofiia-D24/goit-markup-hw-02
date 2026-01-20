@@ -1,0 +1,98 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+body {
+  font-family: var(--font-family);
+  color: var(--slate);
+  background-color: var(--white);
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo .logo-part {
+  color: var(--navy-blue);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.contacts {
+  font-style: normal;
+}
+.contacts-list {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--ocean);
+}
+.page-footer {
+  color: var(--cloud);
+  background-color: var(--navy-blue);
+}
+.footer-logo .logo-part {
+  color: var(--cloud);
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.section-subtitle {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.hero {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  background-color: var(--navy-blue);
+}
+.hero-button {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--iris);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+}
