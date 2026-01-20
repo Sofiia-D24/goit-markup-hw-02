@@ -52,7 +52,7 @@ a {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .page-footer {
   color: #f4f4fd;
@@ -63,12 +63,12 @@ a {
 }
 .section-title {
   font-size: 36px;
-  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-weight: 500;
   text-align: center;
   text-transform: capitalize;
+  line-height: 1.2;
 }
 .section-subtitle {
   font-size: 20px;
@@ -79,7 +79,7 @@ a {
 }
 .section-desc {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .hero {
@@ -103,7 +103,7 @@ a {
   font-weight: 500;
 }
 
-.logo-decs {
+.logo-desc {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -111,5 +111,5 @@ a {
   background-color: #f4f4fd;
 }
 .section-list {
-  background-color: #fff;
+  background-color: #ffffff;
 }
