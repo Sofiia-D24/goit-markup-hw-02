@@ -26,6 +26,10 @@ a {
   color: #2e2f42;
 }
 
+.page-footer .logo-accent {
+  color: #f4f4fd;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -108,29 +112,46 @@ a {
   color: #434455;
 }
 
-.advantages-section p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.advantages-section .section-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-list {
+  display: flex;
+}
+
+.advantages-item {
+}
+
+.team-section {
+}
+
+.team-list {
+  display: flex;
+  /* gap тощо */
+}
+
+.team-item {
+  background-color: #ffffff;
+  /* інші стилі */
 }
 
 .portfolio-section {
   background-color: #f4f4fd;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .portfolio-item {
   background-color: #ffffff;
-}
-
-.page-footer {
-  background-color: #2e2f42;
-}
-
-.page-footer .logo-accent {
-  color: #f4f4fd;
-}
-
-.footer-text {
-  color: #f4f4fd;
 }
